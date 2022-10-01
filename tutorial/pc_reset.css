@@ -31,4 +31,18 @@ p, section, span, ul {
     margin: 0;
     padding: 0;
     vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+nav ul {
+    list-style: none;
+    list-style-image: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+body {
+    line-height: 1;
 }
