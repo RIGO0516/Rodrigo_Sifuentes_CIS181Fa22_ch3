@@ -22,7 +22,7 @@ body {
         "intro faq"
         "articles faq"
         "footer footer";
-        grid-column-gap: 15px;
+    grid-column-gap: 15px;
 }
 
 body>header {
@@ -53,6 +53,7 @@ section {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+
 section>h1 {
     grid-area: 1/1/2/3;
 }
